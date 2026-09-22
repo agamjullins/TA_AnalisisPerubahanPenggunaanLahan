@@ -14,14 +14,12 @@ print(
   semuaCitra2015.size()
 );
 
-// DAFTAR SEMUA CITRA 2015
-// SEBELUM FILTER CLOUD COVER
+// DAFTAR SEMUA CITRA 2015 SEBELUM FILTER CLOUD COVER
 var daftarSemua2015 = ee.FeatureCollection(
   semuaCitra2015.map(function(image) {
 
     var centroid =
       image.geometry().centroid();
-
     var koordinat =
       centroid.coordinates();
 
@@ -40,9 +38,7 @@ var daftarSemua2015 = ee.FeatureCollection(
         koordinat.get(0),
       'Latitude':
         koordinat.get(1)
-
     });
-
   })
 );
 
