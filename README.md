@@ -1,10 +1,10 @@
-# Analisis Perubahan Penggunaan Lahan Kabupaten Timor Tengah Utara
+# Analisis Perubahan Penggunaan Lahan Kabupaten XYZ
 
-Repository ini berisi script **Google Earth Engine (GEE)** yang digunakan untuk klasifikasi penggunaan lahan Kabupaten Timor Tengah Utara (TTU) tahun 2015 dan 2025 menggunakan citra Landsat 8 dan metode Random Forest.
+Repository ini berisi script **Google Earth Engine (GEE)** yang digunakan untuk klasifikasi penggunaan lahan Kabupaten XYZ tahun 2015 dan 2025 menggunakan citra Landsat 8 dan metode Random Forest.
 
 ## Judul Penelitian
 
-**ANALISIS PERUBAHAN PENGGUNAAN LAHAN DI KABUPATEN TIMOR TENGAH UTARA, PROVINSI NUSA TENGGARA TIMUR TAHUN 2015 DAN TAHUN 2025 DENGAN METODE RANDOM FOREST DAN CITRA SATELIT**
+**ANALISIS PERUBAHAN PENGGUNAAN LAHAN DI KABUPATEN XYZ TAHUN 2015 DAN TAHUN 2025 DENGAN METODE RANDOM FOREST DAN CITRA SATELIT**
 
 ## Tujuan
 
@@ -151,7 +151,7 @@ Repository ini menyimpan script penelitian, sedangkan data citra Landsat diakses
 
 ## Penulis
 
-**Agam JulliNS**
+**Agam Juli Nur Susanto**
 
-Program Studi Teknik Informatika  
-Konsentrasi Data Science
+Program Studi PJJ S1 Informatika  
+Universitas Siber Asia
