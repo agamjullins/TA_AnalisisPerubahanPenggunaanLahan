@@ -33,14 +33,12 @@ print(
   semuaCitra2025.size()
 );
 
-// DAFTAR SEMUA CITRA 2025
-// SEBELUM FILTER CLOUD COVER
+// DAFTAR SEMUA CITRA 2025 SEBELUM FILTER CLOUD COVER
 var daftarSemua2025 = ee.FeatureCollection(
   semuaCitra2025.map(function(image) {
 
     var centroid =
       image.geometry().centroid();
-
     var koordinat =
       centroid.coordinates();
 
@@ -59,9 +57,7 @@ var daftarSemua2025 = ee.FeatureCollection(
         koordinat.get(0),
       'Latitude':
         koordinat.get(1)
-
     });
-
   })
 );
 
@@ -429,7 +425,7 @@ var shp2025 = hasil2025.reduceToVectors({
   geometry: KABTTU.geometry(),
   scale: 30,
   geometryType: 'polygon',
-  eightConnected: true,
+  eightConnected: false,
   labelProperty: 'klasifikasi',
   maxPixels: 1e13,
 });
